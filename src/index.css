@@ -1,0 +1,62 @@
+body {
+  font: 14px;
+  margin: 20px;
+}
+
+.board-row:after {
+  clear: both;
+  content: '';
+  display: table;
+}
+
+.status {
+  margin-bottom: 10px;
+}
+
+.square {
+  background: #fff;
+  border: 1px solid #999;
+  float: left;
+  font-size: 48px;
+  font-weight: bold;
+  line-height: 68px;
+  height: 68px;
+  margin-right: -1px;
+  margin-top: -1px;
+  padding: 0;
+  text-align: center;
+  width: 68px;
+}
+
+@media only screen and (max-width: 300px) {
+  .square {
+    font-size: 24px;
+    line-height: 34px;
+    height: 34px;
+    width: 34px;
+  }
+}
+
+.square:focus {
+  outline: none;
+}
+
+.kbd-navigation .square:focus {
+  background: #ddd;
+}
+
+.game {
+  display: flex;
+  flex-direction: row;
+  width: fit-content;
+  margin: auto;
+  padding: 24px;
+}
+
+.logo {
+  margin-right: 5px;
+}
+
+.restart-btn {
+  margin: 15px auto !important;
+}
