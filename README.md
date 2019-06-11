@@ -1,6 +1,6 @@
 ## Tic-Tac-Toe app 
 
-This app was developped to understand React and its syntax.
+This app was developed to understand React and its syntax.
 
 ## How to run   
 
